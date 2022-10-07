@@ -1,0 +1,25 @@
+{
+  "name": "fe-39-hw-7__form-adaptive",
+  "version": "1.0.0",
+  "source": "./index.html",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "parcel"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ZaureLl/FE-39-HW-7__form-adaptive.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/ZaureLl/FE-39-HW-7__form-adaptive/issues"
+  },
+  "homepage": "https://github.com/ZaureLl/FE-39-HW-7__form-adaptive#readme",
+  "devDependencies": {
+    "@parcel/transformer-sass": "^2.7.0",
+    "parcel": "^2.7.0",
+    "sass": "^1.55.0"
+  }
+}

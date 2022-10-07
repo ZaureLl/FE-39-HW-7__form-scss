@@ -1,0 +1,86 @@
+@font-face {
+  font-family: MontsseratMedium;
+  src: url("Montserrat-Medium.00c8dcbd.ttf");
+}
+
+body {
+  letter-spacing: .04em;
+  color: #371030;
+  font-family: MontsseratMedium;
+  font-style: normal;
+}
+
+.contact-request-wrapper {
+  max-width: 810px;
+  margin: 0 auto;
+}
+
+.contact-request-wrapper .contact-form {
+  background-color: #fbf7f6;
+  border-radius: 20px;
+  display: flex;
+  overflow: hidden;
+  box-shadow: 0 0 20px #00000026;
+}
+
+.contact-request-wrapper .contact-form .contact-form-form {
+  padding: 40px;
+}
+
+.contact-request-wrapper .contact-form .contact-form-form .contact-form-form h2, .contact-form-form h2 {
+  font-size: 15px;
+  font-weight: 700;
+  line-height: 18px;
+}
+
+.contact-form img {
+  image-rendering: auto;
+}
+
+.contact-form-form form input {
+  width: 100%;
+  background-color: #fbf7f6;
+  border: none;
+  border-bottom: 1px solid #371030;
+  padding: 20px 0 10px;
+  font-size: 16px;
+  font-weight: 400;
+  line-height: 20px;
+}
+
+.contact-form-form form input:focus {
+  border-bottom: 1px solid #fc9faa;
+  outline: none;
+}
+
+.contact-form-form form input:focus::placeholder {
+  color: #fc9faa;
+}
+
+.contact-form-form form .contact-form-btn-wrp {
+  padding: 25px 0 0;
+}
+
+.contact-form-form form .contact-form-btn {
+  text-align: center;
+  color: #9a3c48;
+  width: 100%;
+  background-color: #ffb0ba;
+  border-bottom: none;
+  border-radius: 25px;
+  margin: 0 auto;
+  padding: 20px 30%;
+  font-weight: 900;
+  display: block;
+  box-shadow: 3px 3px 0 3px #de8e98;
+}
+
+.contact-form-form form .contact-form-btn:hover {
+  background: #fc9fab;
+}
+
+.contact-form-form form .contact-form-btn:active {
+  background: #fe95a2;
+}
+
+/*# sourceMappingURL=index.b2d9cf43.css.map */
